@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6606c11b2a7f411f9e5358a8996bccca" Name="Diagram1" ZoomLevel="68">
+        <EntityTypeShape EntityType="DiziModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiziModel.TBLBLOG" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiziModel.TBLHAKKIMIZDA" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiziModel.TBLILETISIM" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiziModel.TBLKATEGORI" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiziModel.TBLTUR" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiziModel.TBLYORUM" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="DiziModel.FK_TBLBLOG_TBLKATEGORI" ManuallyRouted="false" />
+        <AssociationConnector Association="DiziModel.FK_TBLBLOG_TBLTUR" ManuallyRouted="false" />
+        <AssociationConnector Association="DiziModel.FK_TBLYORUM_TBLBLOG" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DiziModel.ADMINGIRIS" Width="1.5" PointX="9" PointY="0.875" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
